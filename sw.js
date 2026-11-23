@@ -1,5 +1,5 @@
 /* Legt die App im Zwischenspeicher ab, damit sie auch ohne Internet startet. Neue Versionen werden beim nächsten Start geholt. */
-var CACHE = 'bild-teiler-v19';
+var CACHE = 'bild-teiler-v20';
 var SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icon-180.png', 'icon-192.png', 'icon-512.png'];
 
 self.addEventListener('install', function(e){
